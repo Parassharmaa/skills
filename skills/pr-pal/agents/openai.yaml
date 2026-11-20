@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR Pal"
+  short_description: "Review PRs, draft findings, approve silently"
+  default_prompt: "Use $pr-pal to review open PRs (fetch them yourself if I name an author). Show draft comments for any actionable findings; approve clean PRs only if I authorize it."
