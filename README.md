@@ -1,6 +1,6 @@
 # skills
 
-Four agent skills for the pull request loop: ship a PR, keep it green, review other people's PRs, and clean up web UI. They are plain [Agent Skills](https://agentskills.io) (`SKILL.md` folders), so they work in Claude Code, Codex and any other agent that reads skills.
+Agent skills I use day to day. They are plain [Agent Skills](https://agentskills.io) (`SKILL.md` folders), so they work in Claude Code, Codex and any other agent that reads skills.
 
 | Skill | What it does | Assumes |
 |---|---|---|
@@ -43,7 +43,7 @@ claude plugin marketplace add Parassharmaa/skills
 claude plugin install pr-workflow@parassharmaa-skills
 ```
 
-The plugin is called `pr-workflow` and carries all four skills.
+The plugin is called `pr-workflow` and carries the skills listed above.
 
 ### Codex, as a plugin
 
@@ -77,7 +77,7 @@ With the Codex plugin, pick the skill from the `$` menu.
 
 ```
 skills/<name>/SKILL.md            the skills (one folder each, scripts beside them)
-.claude-plugin/marketplace.json   Claude Code marketplace, one plugin with all four skills
+.claude-plugin/marketplace.json   Claude Code marketplace
 .agents/plugins/marketplace.json  Codex marketplace
 .codex-plugin/plugin.json         Codex plugin manifest
 ```
