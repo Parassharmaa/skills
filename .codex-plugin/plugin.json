@@ -1,0 +1,28 @@
+{
+  "name": "pr-workflow",
+  "version": "1.0.0",
+  "description": "Four skills for the pull request loop: ship one PR end to end, babysit an open PR, review other people's PRs draft-first, and audit web UI.",
+  "author": {
+    "name": "Paras Sharma",
+    "url": "https://github.com/Parassharmaa"
+  },
+  "homepage": "https://github.com/Parassharmaa/skills",
+  "repository": "https://github.com/Parassharmaa/skills",
+  "license": "MIT",
+  "keywords": ["pull-request", "code-review", "ci", "ui-audit", "skills"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PR Workflow",
+    "shortDescription": "Ship, babysit and review PRs; audit web UI",
+    "longDescription": "Four skills for the pull request loop. sonicboom ships one PR end to end from a ticket. babysit keeps an open PR green, merged with its base and answered. pr-pal reviews other people's PRs and shows draft findings before posting. kirei audits a web app's UI at phone and desktop widths and ships the fixes with before and after evidence.",
+    "developerName": "Paras Sharma",
+    "category": "Developer Tools",
+    "capabilities": ["Skills"],
+    "websiteURL": "https://github.com/Parassharmaa/skills",
+    "defaultPrompt": [
+      "Use $pr-pal to review this PR and show me draft comments.",
+      "Use $babysit to keep this PR green until it merges.",
+      "Use $kirei to audit this page at phone width."
+    ]
+  }
+}
